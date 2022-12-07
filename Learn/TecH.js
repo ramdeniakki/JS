@@ -1,8 +1,12 @@
 
+
+// https://youtu.be/rGtcPlRQ3gA
 /* 
 console.log("Hello Nxt_TecH Learners!....");
 
 console.log("Coding is Easy to learn but you need to Concerate on your goal");
+
+
 
 
 */
@@ -167,3 +171,154 @@ console.log(div(10,5))
 
 
 */
+
+/* 
+  
+ Array : 
+        Arrays allows you to store multiple values inside of them.
+
+        array = []
+
+*/
+
+/*
+const employee = ['Raju', 'Ramesh','Pravin','Avinash','Vikram','Ganesh']
+console.log(employee);
+*/
+// array methods (Slice,push,indexof,length)
+
+// Index gives you the location of the value with an array.
+// console.log(employee[1]);
+
+// push 
+// Adds one or more Elements to the end of an array and returns the new length of the array
+
+// employee.push('Azmar')
+// console.log(employee)
+
+// silce  method returns the partion of the array you want in a new array
+
+// console.log(employee.slice(0,2))
+
+// console.log(employee.slice(0,5))
+
+
+
+// Length is an array property that returns the number of elements you have in a given array.
+// console.log(employee.length)
+
+ // objects : 
+          //  it is a type  of variable quite similar to array but they have something called key-value pairs.
+
+
+          // const person = {
+            // name: 'Ravi',
+            // colour: 'Red'
+          // }
+          // console.log(person.name)
+          // console.log(person.colour)
+
+          // person.phone = '123456789'
+          // console.log(person.phone)
+          // console.log(person)
+
+
+
+          // they are two notation  
+          // dot notation  and bracket notation
+
+          // dot notation 
+          // console.log(person.name)
+          //  bracket notation
+          // console.log(person['name'])
+
+
+          // arrow function with object  
+/*
+          const introduce = (name,color) =>{
+            const person = {
+              name: name,
+              color:color,
+            }
+                   const intro = `hai ,my name is ${person.name}, and my shirt color is ${person.color}`
+                 return intro
+          }
+console.log(introduce('ravi','black'))
+
+
+*/
+
+
+
+// const names =['Raju','Suresh','rajesh','dhanesh','harsha','aravind','vikram','kishore','balu','suhas','prashant','Azmar','Asad','Fardin','S8ul','Norwin','BOard','Sultan','Ram']
+// // console.log(names)
+// /*
+// for(let i=0;i<=names.length;i++){
+//   console.log(names[i])
+
+// }
+// */
+// for(const name of names){
+//   console.log(name)
+// }
+
+// const number = [1,2,3,4,5,6]
+// let result = []
+// for(numbers in number){
+//   result.push(numbers *2)
+// }
+// console.log(result)
+
+
+// const double = (numbers) =>{
+//    let result = []
+//    for(const number of numbers){
+//     result.push(number * 2)
+//    }
+
+//    return result
+// }
+// console.log(double([1,2,3,4,5,6]))
+
+// const howmanyletter = () =>{
+//   for(const index in phrase){
+//     console.log(Number(index)+1)
+//     result = Number(index) + 1
+//   }
+//   return {result}
+// }
+
+// const phrase = prompt('Write you phrases')
+
+
+// console.log(howmanyletter(phrase))
+
+
+
+// find sum of Array
+
+// const sumarray = (numbers) => {
+//   let result = 0;
+//     for(const number of numbers){
+//     console.log(number)
+//     result = result+number
+//   }
+//   return {result}
+// }
+// const nums =[1,2,3,4,5]
+// console.log(sumarray(nums))
+
+
+
+// map function
+
+
+// const doubleMap =(numbers) =>{
+//   return numbers.map(number => number * 2)
+// }
+// console.log(doubleMap([1,2,3]))
+
+
+
+const filters = [1,2,3,4,5,6]
+console.log(filters.filter(num => num >3))
