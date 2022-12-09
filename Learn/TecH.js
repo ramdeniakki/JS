@@ -116,7 +116,148 @@ console.log('Total amount: ',total_amount)
                   ceil : The math.ceil() method rounds a number upto the nearest integer and returns the result.
 */
 
-                  
+         
+//alert() method display an alert dialog with the optional specified content.
+// alert('hello Akshith!')
+
+// data types
+/*
+ Strings 'I am Programmer'
+ numbers 123456789
+ boolean True or False
+*/
+
+// prompt() similar to alert user input data and string in a variable
+// 
+// var your_name = prompt('What is your name?: ')
+// console.log(your_name)
+
+// var your_name = prompt('what is your name? ')
+
+// combine both of the values
+// alert(`my nameis ${your_name} ,welcome to tech learn`)
+
+// variable
+
+/*
+var gamelevel =1;
+gamelevel =2;
+gamelevel =3;
+gamelevel =5;
+alert(gamelevel)
+
+*/
+
+
+
+// Naming $ Naming conversion
+/*
+var Myname = 'Akshit'
+var yourname = 'vikram'
+var myvar = 'my var'
+var my_name =133645;
+
+alert(`${my_name}  ${Myname} ${myvar} ${yourname}  `)
+*/
+
+//String concatenation
+
+// alert('hello' + ' '+ 'world');
+/*
+var message = 'hello';
+var name = 'Vikram';
+alert(`${message} ${name}`)
+alert(`${message.length}`)
+
+
+length function
+message.length;
+console.log(message.length)
+*/
+
+
+// Slice
+/*
+var name = 'ramdeni'
+console.log(name.slice(0,5))
+*/
+
+
+
+// Problem 1
+/*
+
+var a = 8;
+var b = 3;
+console.log("a is:", a)
+console.log("b is:", b)
+
+
+*/
+
+// dog age  in present human life  calculator
+
+
+/*
+var dog_age = prompt('Enter the DogAge: ')
+var human_age = ((dog_age -2) * 4) + 21;
+
+alert("Your dog age is " + human_age + "years old in human age's ")
+
+*/
+
+/*
+function(){
+
+}
+*/
+/*
+function getMilk() {   
+    console.log("leaveHouse");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("enterHouse");
+  }
+
+  */
+
+
+/*
+
+  // lifinweeks problem 
+
+  function lifeinweeks(age){
+    var lifeRemaining = 90 -age;
+    var days = lifeRemaining *365;
+    var weeks = lifeRemaining *52 ;
+    var months = lifeRemaining * 12;
+    console.log("You have " + days + " days, " + weeks + " weeks, and " + months + " months left.");
+    
+    
+  }
+
+  lifeinweeks(50);
+
+
+
+  */
+
+
+ // dom          
 
 /*
          
@@ -318,7 +459,12 @@ console.log(introduce('ravi','black'))
 // }
 // console.log(doubleMap([1,2,3]))
 
-
+/*
 
 const filters = [1,2,3,4,5,6]
 console.log(filters.filter(num => num >3))
+*/
+
+
+
+
